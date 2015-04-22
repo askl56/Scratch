@@ -3,7 +3,8 @@ window.Scratch =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
-
-$(document).ready ->
+  initialize: ->
+    alert('hello from backbone!');
+        window.App = window.ScratchPad
+        $(document).ready ->
   Scratch.initialize()
