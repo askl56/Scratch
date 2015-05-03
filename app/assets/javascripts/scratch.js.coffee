@@ -4,7 +4,9 @@ window.Scratch =
   Views: {}
   Routers: {}
   initialize: ->
-    alert('hello from backbone!');
-        window.App = window.ScratchPad
-        $(document).ready ->
+    alert('Hello from backbone!');
+
+window.App = window.Scratch
+
+$(document).ready ->
   Scratch.initialize()
