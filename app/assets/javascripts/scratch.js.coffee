@@ -4,7 +4,6 @@ window.Scratch =
   Views: {}
   Routers: {}
   initialize: ->
-    alert('Hello from backbone!');
 
 window.App = window.Scratch
 
