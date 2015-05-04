@@ -9,7 +9,7 @@ window.Scratch =
       new @Models.Note(id: 2, title: "The second note", content: "")
       new @Models.Note(id: 3, title: "The third note", content: "more notes")
     ]
-    new @Routers.ScratchRouter
+    new @Routers.ScratchPadRouter
     Backbone.history.start(pushState: true)
 
 window.App = window.Scratch

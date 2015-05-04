@@ -6,6 +6,6 @@ class NotesController < ApplicationController
   end
 
   def note
-    @_note = notes.find(params[:id])
+    @_note ||= notes.find(params[:id])
   end
 end
